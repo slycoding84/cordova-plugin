@@ -66,9 +66,9 @@
 		    <service android:enabled="true" android:name="com.inmobi.signals.activityrecognition.ActivityRecognitionManager" />
 		    <activity android:name="com.flurry.android.FlurryFullscreenTakeoverActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         </config-file>
+		<framework src="com.google.android.gms:play-services-ads:8.3.0" />
 
 		<source-file src="src/android/AppodealPlugin.java" target-dir="src/com/appodeal/plugin" />
-		<source-file src="libs/android-support-v4.jar" target-dir="libs" />
 		<source-file src="libs/appodeal-1.14.12.jar" target-dir="libs" />
 		<source-file src="libs/inmobi-5.2.3.jar" target-dir="libs" />
 		<source-file src="libs/yandex-metrica-2.32.jar" target-dir="libs" />
